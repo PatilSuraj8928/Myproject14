@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specific static file</title>
+    <link rel="stylesheet"  href="{% static 'css/c1.css' %}">
+</head>
+<body>
+    <center>
+        <h1>This is the Iron man  </h1>
+            <a href="{% static 'images/iron-man.png' %}" >I'm an Iron man</a>
+        <h1 style="color: blue;">This is the spider man  </h1>
+        <img src="{% static 'images/spider-man.jpg' %}" id="spider">
+        <h1 style="color: aqua;">Hi there!!..... this is goku  </h1>
+        <img src="{% static 'images/goku.png' %}" id="goku">
+    </center>
+</body>
+</html>

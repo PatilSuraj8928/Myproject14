@@ -1,0 +1,10 @@
+body
+{
+    background-color:black;
+    color: red;
+}
+#goku, #spider
+{
+    width: 300px;
+    height: 200px;
+}
